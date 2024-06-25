@@ -19,7 +19,7 @@ while (programIsRunning == True) and (counter <= 2):
 
     else:
         os.system("cls")
-        print("\nWrong input, type either 'y' or 'n'")
+        print("Wrong input, type either 'y' or 'n'")
         counter += 1
         programIsRunning = True
 if counter >= 3:
