@@ -4,6 +4,7 @@ import time
 programIsRunning = True
 counter = 0
 
+
 while (programIsRunning == True) and (counter <= 2):
 
     if counter >= 1:
@@ -25,7 +26,10 @@ while (programIsRunning == True) and (counter <= 2):
         print("Wrong input, type either 'y' or 'n'")
         counter += 1
         programIsRunning = True
+
+
 if counter >= 3:
+    os.system("cls")
     print("\nToo many incorrect inputs...\nClosing program")
     time.sleep(3)
     exit(0)
