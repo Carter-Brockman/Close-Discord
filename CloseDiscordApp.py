@@ -23,6 +23,6 @@ while (programIsRunning == True) and (counter <= 2):
         counter += 1
         programIsRunning = True
 if counter >= 3:
-    print("\nToo many wrong inputs...\nClosing program")
+    print("\nToo many incorrect inputs...\nClosing program")
     time.sleep(3)
     exit(0)
