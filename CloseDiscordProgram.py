@@ -30,6 +30,6 @@ while (programIsRunning == True) and (counter <= 2):
 
 if counter >= 3:
     os.system("cls")
-    print("\nToo many incorrect inputs...\nClosing program")
+    print("Too many incorrect inputs...\nClosing program")
     time.sleep(3)
     exit(0)
