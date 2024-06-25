@@ -6,6 +6,9 @@ counter = 0
 
 while (programIsRunning == True) and (counter <= 2):
 
+    if counter >= 1:
+        print('\n')
+
     userChoice = input("End Discord? (y/n): ")
     userChoice = userChoice.upper()
 
